@@ -17,6 +17,18 @@ Giữ thư mục bạn cần, xoá thư mục kia. Chỉ cần game và một ch
 
 Với `my_theme`: nhập xong thì mở lại game, rồi chọn nó trong Cài đặt, **Giao diện**.
 
+## Làm cùng AI
+
+Mở kho này bằng Codex, Claude Code hay công cụ AI khác, rồi nói bạn muốn gì. Bộ skill trong `skills/` dạy nó làm đúng luật:
+
+| Skill | Bạn nói, ví dụ |
+|---|---|
+| `vityaz-panel` | "Làm bảng hiện vàng và số quái mỗi phút" |
+| `vityaz-theme` | "Làm giao diện xanh lá, chữ dễ đọc" |
+| `vityaz-share` | "Kiểm mod của tôi trước khi nộp" |
+
+AI có thể sai: hãy tự thử mod trong game trước khi nộp.
+
 ## Đổi tên
 
 Id dùng chữ thường, số và `_`. Tên mới phải giống nhau ở mọi chỗ:
