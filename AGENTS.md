@@ -4,12 +4,12 @@ Each folder in `mods/` is one mod of Vityaz Hero, data only: no code.
 
 | The user wants | Skill |
 |---|---|
-| A panel of the game's numbers | `skills/vityaz-panel/SKILL.md` |
-| Another look: colours, sizes, backgrounds | `skills/vityaz-theme/SKILL.md` |
-| A mod checked, mended or handed in | `skills/vityaz-share/SKILL.md` |
+| A panel of the game's numbers | `.agents/skills/vityaz-panel/SKILL.md` |
+| Another look: colours, sizes, backgrounds | `.agents/skills/vityaz-theme/SKILL.md` |
+| A mod checked, mended or handed in | `.agents/skills/vityaz-share/SKILL.md` |
 
-`.agents/skills/` and `.claude/skills/` only point to them: when a skill's `name` or `description` changes, change it there
-too. Answer the user in their language, in plain words: most are players, not programmers.
+`.claude/skills/` only points to them: when a skill's `name` or `description` changes, change it there too.
+Answer the user in their language, in plain words: most are players, not programmers.
 
 - A folder's name is the mod's id (lower case letters, digits, `_`) and is written the same in `bundle.json`,
   `module.json`, the `modules` or `content` list and the folders inside.

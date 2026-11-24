@@ -19,7 +19,7 @@ Với `my_theme`: nhập xong thì mở lại game, rồi chọn nó trong Cài 
 
 ## Làm cùng AI
 
-Mở kho này bằng Codex, Claude Code hay công cụ AI khác, rồi nói bạn muốn gì. Bộ skill trong `skills/` dạy nó làm đúng luật:
+Mở kho này bằng Codex, Claude Code hay công cụ AI khác, rồi nói bạn muốn gì. Bộ skill trong `.agents/skills/` dạy nó làm đúng luật:
 
 | Skill | Bạn nói, ví dụ |
 |---|---|
