@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "my_theme",
+  "display_name": "THEME_MY_THEME",
+  "colors": {
+    "accent": "#7fd0ff",
+    "border": "#3a6a8a",
+    "trim": "#5a8aa8"
+  },
+  "sizes": {
+    "title_px": 14
+  },
+  "fills": {
+    "hero": {
+      "type": "color",
+      "color": "#101a2af0"
+    }
+  }
+}

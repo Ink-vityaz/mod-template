@@ -1,0 +1,14 @@
+{
+  "format": 1,
+  "id": "my_theme",
+  "name": "Giao diện của tôi",
+  "version": "1.0.0",
+  "game": "0.29.x",
+  "depends": {},
+  "modules": [],
+  "content": {
+    "ui/themes": [
+      "my_theme"
+    ]
+  }
+}
