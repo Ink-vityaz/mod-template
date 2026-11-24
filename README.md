@@ -26,6 +26,8 @@ Id dùng chữ thường, số và `_`. Tên mới phải giống nhau ở mọi
 
 ## Chia sẻ
 
+Ghi tên bạn và một dòng giới thiệu vào `listing.json` của mod: trang [Mod cộng đồng](https://vityaz.ink.io.vn/mod/community/) hiện hai dòng đó.
+
 Nộp mod vào [mods-community](https://github.com/Ink-vityaz/mods-community): chép thư mục mod vào `mods/` ở đó và mở một pull request.
 
 Mẫu làm cho game 0.29.x. Giấy phép: MIT.

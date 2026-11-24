@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           repository: Ink-vityaz/mods-community
-          ref: 6144803f3dfa7712d22223f8f3c5429818014658
+          ref: 49ebf8202318cf759552838b819aad7034288aa6
           path: checker
           persist-credentials: false
       - name: Build the checker
