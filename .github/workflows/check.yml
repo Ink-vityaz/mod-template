@@ -1,0 +1,31 @@
+# Checks the mods here by the rules of github.com/Ink-vityaz/mods-community, with its own checker at a pinned commit:
+# what is green here may be handed in there. It only reads the mods.
+name: check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          path: mine
+          persist-credentials: false
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          repository: Ink-vityaz/mods-community
+          ref: 6144803f3dfa7712d22223f8f3c5429818014658
+          path: checker
+          persist-credentials: false
+      - name: Build the checker
+        working-directory: checker/tools/mods_community
+        run: cargo build --release --locked
+      - name: Check
+        run: checker/tools/mods_community/target/release/mods-community check --root mine
